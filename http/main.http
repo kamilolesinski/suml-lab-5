@@ -1,0 +1,12 @@
+### Get prediction
+GET http://127.0.0.1:8008/model.predict/16
+Accept: application/json
+
+### Train the model
+POST http://127.0.0.1:8000/model/train
+Content-Type: application/json
+
+{
+  "x": 12,
+  "y": 14
+}

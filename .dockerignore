@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+
+# Virtual environment
+.venv/
+
+# IDE
+.idea/
+
+# macOS
+.DS_Store
+
+# Development
+http/
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Git
+.git
