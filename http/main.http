@@ -1,9 +1,13 @@
+### Get data
+GET http://127.0.0.1:8008/data
+Accept: application/json
+
 ### Get prediction
-GET http://127.0.0.1:8008/model.predict/16
+GET http://127.0.0.1:8008/model/predict/16
 Accept: application/json
 
 ### Train the model
-POST http://127.0.0.1:8000/model/train
+POST http://127.0.0.1:8008/model/train
 Content-Type: application/json
 
 {

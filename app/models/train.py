@@ -5,7 +5,7 @@ import pandas as pd
 import pickle
 
 
-def train(point: Point):
+def train_model(point: Point):
     df = pd.read_csv(DATA_FILE_PATH)
     df.loc[len(df.index)] = [point.x, point.y]
     df.to_csv(DATA_FILE_PATH, index=False)

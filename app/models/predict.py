@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 
-def predict(x):
+def predict_y(x):
     with open(MODEL_FILE_PATH, "rb") as file:
         model = pickle.load(file)
     x_unknown = pd.DataFrame([[x]], columns=['x'])
